@@ -1,7 +1,7 @@
 # DOCKER-VERSION 1.6.0
 # VERSION 0.1
 
-FROM odise/busybox-curl:stable
+FROM odise/busybox-curl
 
 RUN mkdir -p /usr/share/shapefiles-src
 
